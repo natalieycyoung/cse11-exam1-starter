@@ -23,8 +23,8 @@ Submission checklist (see long descriptions below for full details):
 - [ ] Two tests using this constructed ```EitherQuery``` object
 - [ ] Screencast
     - Show ID
-    - Trace evaluation of task1b test
-    - Trace evaluation of EitherQuery test
+    - Trace evaluation of ```task1b``` test
+    - Trace evaluation of ```EitherQuery``` test
 
 Your submission will be graded **after** the deadline. The Gradescope upload will just check to make sure that there aren’t any errors reported by Java when we try to run your programs, not whether tests succeeded or failed. You should test thoroughly yourself to make sure your program works as expected.
 
