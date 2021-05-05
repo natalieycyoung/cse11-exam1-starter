@@ -19,7 +19,7 @@ Submission checklist (see long descriptions below for full details):
 - [ ] Two constructed ```AreaLessThan``` objects
 - [ ] Four total tests for ```AreaLessThan``` (two for each object)
 - [ ] ```EitherQuery``` class
-- [ ] Constructed ```EitherQuery``` object CHANGED – removed a comment about a required AndQuery here
+- [ ] Constructed ```EitherQuery``` object
 - [ ] Two tests using this constructed ```EitherQuery``` object
 - [ ] Screencast
     - Show ID
