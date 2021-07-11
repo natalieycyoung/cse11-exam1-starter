@@ -4,12 +4,12 @@ This page details a **take-home exam** that you will complete over the next few 
 
 You can make use of any course notes, online resources, Java tools, and so on to complete the exam.
 
-Syllabus policy on exams: https://ucsd-cse11-sp21.github.io/#g:exams
+Syllabus policy on exams: https://ucsd-cse11-su121.github.io/#g:exams
 
 You will complete the programming task below and submit ```ExamplesSearch.java``` to the ```exam1``` Gradescope assignment.
 
 You will also submit a **video screencast** of yourself presenting a portion of
-it to this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSc6yOPGpDZ5dj1Ff6CdQnHiA95XiKWpLsN_ez0kzl2ogWP2yw/viewform?usp=sf_link).
+it to this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLScIMwO8rFqZp3YL5GlBK_nw4Tsh4K5XqbfZpEZjX1zonv4X4Q/viewform?usp=sf_link).
 
 Submission checklist (see long descriptions below for full details):
 
