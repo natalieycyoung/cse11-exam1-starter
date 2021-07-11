@@ -63,7 +63,7 @@ Then, create an ```EitherQuery``` object. Demonstrate using this query’s ```ma
 ### Task 4 – Video
 You will record a short video of no more than 8 minutes. Include:
 
-- Your face and your student ID for a few seconds at the beginning. You don’t have to be on camera the whole time, though it’s fine if you are. Just a brief confirmation that it’s you creating the video/doing the work attached to the work itself is what we want.
+- Show only your face and a picture ID (your student ID is preferred) for a few seconds at the beginning. You don’t have to be on camera the whole time, though it’s fine if you are. Just a brief confirmation that it’s you creating the video/doing the work attached to the work itself is what we want.
 - For the second example from ```task1b``` – “An image that has the keyword ```"ucsd"``` and has the keyword ```"ucsf"```”:
 
     Run the program and show the output corresponding to the method call for this example. Then, starting from the line in your code with the the call to the ```matches``` method, indicate each line of code that runs in your program while evaluating that method call. You can scroll to and click the lines to highlight them, or otherwise indicate each one. You should indicate them in the order that **Java will evaluate them** (this might be different than the order they appear in the file).
@@ -75,3 +75,13 @@ An example of what your video should look like when doing this kind of explanati
 https://drive.google.com/open?id=1E-TcVXSg9BI4MnWoVU9_BbcRJsu8ZhCf
 
 PA5 has a tutorial for creating a screencast like this https://github.com/CSE11-SU121-Assignments/cse11-pa5-starter.
+
+Here are some notes on how to improve your videos:
+
+- Make sure to use a picture ID, either a driver's license or passport that has a picture of you. If you do not provide a picture ID, you will get a 0 on the exam until prove to us it was you who did the video.
+- Make sure your picture ID and face are visible at the same time for three or four seconds. We must be able to pause the video and verify it's you. Again, if we can't verify it's you, you will get a 0 on the exam until prove to us it was you who did the video. Make sure to fill up the screen as much as possible with your face and picture id (i.e. don't stand far away from your camera).
+- When you start recording your video, start with screen share off and camera on and show your picture ID and face (close-up!!). Then you can enable screen share (and disable camera) and walk through your code.
+- Video must have sound! While highlighting your code, also make sure to explain the code. We must hear you explain it!
+- Once you enable screen share, make sure to leave it on the entire time while explaining your code.
+- Do not explain every test case! Only explain what you are explicitly told in the write-up.
+- Keep your videos under 8 minutes. We will penalize all students who go over 8 minutes. To ensure you stay under 8 minutes, make sure to only explain the test cases that the write-up says you should. Do not explain extra code that is not requested by the write-up.
