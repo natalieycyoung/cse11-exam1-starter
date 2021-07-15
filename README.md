@@ -61,7 +61,7 @@ Add a new type of query called ```EitherQuery``` that represents a combination o
 Then, create an ```EitherQuery``` object. Demonstrate using this query’s ```matches``` method on two different ```ImageData``` inputs, once returning ```true``` and once returning ```false```.
 
 ### Task 4 – Video
-You will record a short video of no more than '''8 minutes'''. Include:
+You will record a short video of no more than ```8 minutes```. Include:
 
 - Show only your face and a picture ID (your student ID is preferred) for a few seconds at the beginning. You don’t have to be on camera the whole time, though it’s fine if you are. Just a brief confirmation that it’s you creating the video/doing the work attached to the work itself is what we want.
 - For the second example from ```task1b``` – “An image that has the keyword ```"ucsd"``` and has the keyword ```"ucsf"```”:
