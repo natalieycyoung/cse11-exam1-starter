@@ -48,7 +48,7 @@ You should **not** change any of the existing methods or classes except for addi
 ### Task 2
 Add a new type of query called ```AreaLessThan``` that represents a query that returns whether the area of an image (its width times its height) is less than an area provided to the query. It should implement ```ImageQuery```.
 
-Test the new class by creating two example ```AreaLessThan``` queries, and testing **each** on two inputs: one example that returns ```true``` and one that returns ```false```. You can write these as fields in ```ExamplesSearch``` or as tester methods, your choice, but they must be clearly indicated as the tests for Task 2.
+Test the new class by creating two example ```AreaLessThan``` queries, and testing **each** on two inputs: one example that returns ```true``` and one that returns ```false``` (4 tests in total). You can write these as fields in ```ExamplesSearch``` or as tester methods, your choice, but they must be clearly indicated as the tests for Task 2.
 
 ### Task 3
 Add a new type of query called ```EitherQuery``` that represents a combination of two queries that returns true if either one matches, but false if both or neither match. For example, for an ```EitherQuery``` combining a keyword search for ```"apple"``` and a keyword search for ```"banana"```:
