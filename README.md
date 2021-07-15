@@ -37,7 +37,7 @@ You can find the starter code in this repository. The starter code is very light
 You should **not** change any of the existing methods or classes except for adding to ```ExamplesSearch```. Don’t change ```ImageQuery``` or the other query classes, just add new ones as described below.
 
 ### Task 1
-- Add a new **field** to the ```ExamplesSearch``` class called ```task1a``` of type ```ImageQuery```. Its value should be a query that returns ```true``` on ```matches``` for images that have the extension ```"jpg"```.
+- Add a new **field** to the ```ExamplesSearch``` class called ```task1a``` of type ```ImageQuery```. The fields value should be a query that returns ```true``` when calling the  ```matches``` method for images that have the extension ```"jpg"```.
 
 - Add a new field to ```ExamplesSearch``` called ```task1b``` of type ```ImageQuery```. Its ```matches``` method should return ```true``` for images that have the keyword ```"ucsd"``` and do **not** have the keyword ```"ucsf"``` (```false``` otherwise). Construct ```ImageData``` inputs matching these descriptions, and show how the query you constructed behaves when matching each of them:
 
