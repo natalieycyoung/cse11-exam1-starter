@@ -1,5 +1,8 @@
 # Exam 1
 
+### Release: 12am Friday August 20, 2021
+### Due: 4pm Saturday August 21, 2021
+
 This page details a **take-home exam** that you will complete over the next few days. You can’t communicate with anyone about the content of the assignment until you receive your grade. The course staff will not give debugging advice or answer questions about the problems. If you have technical trouble creating a screencast (detailed below) feel free to reach out for assistance. 
 
 You can make use of any course notes, online resources, Java tools, and so on to complete the exam.
