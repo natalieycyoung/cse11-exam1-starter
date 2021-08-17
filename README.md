@@ -66,7 +66,7 @@ Then, create an ```EitherQuery``` object. Demonstrate using this query’s ```ma
 ### Task 4 – Video
 You will record a short video of no more than ```8 minutes```. Include:
 
-- Show only your face and a picture ID (your student ID is preferred) for a few seconds at the beginning. You don’t have to be on camera the whole time, though it’s fine if you are. Just a brief confirmation that it’s you creating the video/doing the work attached to the work itself is what we want.
+- Show only your face and a picture ID (your student ID is preferred but any picture ID with your name on it will work) for a few seconds at the beginning. You don’t have to be on camera the whole time, though it’s fine if you are. Just a brief confirmation that it’s you creating the video/doing the work attached to the work itself is what we want.
 - For the second example from ```task1b``` – “An image that has the keyword ```"ucsd"``` and has the keyword ```"ucsf"```”:
 
     Run the program and show the output corresponding to the method call for this example. Then, starting from the line in your code with the the call to the ```matches``` method, indicate and explain each line of code that runs in your program while evaluating that method call. You can scroll to and click the lines to highlight them, or otherwise indicate each one. You should indicate them in the order that **Java will evaluate them** (this might be different than the order they appear in the file).
