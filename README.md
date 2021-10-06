@@ -61,7 +61,7 @@ An example of what your video should look like when doing this kind of explanati
 
 https://drive.google.com/open?id=1E-TcVXSg9BI4MnWoVU9_BbcRJsu8ZhCf
 
-PA5 has a tutorial for creating a screencast like this https://github.com/CSE11-SU121-Assignments/cse11-pa5-starter.
+PA2 has a tutorial for creating a screencast like this [https://ucsd-cse11-f21.github.io/assignments/pa2.html](https://ucsd-cse11-f21.github.io/assignments/pa2.html).
 
 Here are some notes on how to improve your videos:
 
