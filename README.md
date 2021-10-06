@@ -65,10 +65,10 @@ PA2 has a tutorial for creating a screencast like this [https://ucsd-cse11-f21.g
 
 Here are some notes on how to improve your videos:
 
-- Make sure to use a picture ID, either a driver's license or passport that has a picture of you. If you do not provide a picture ID, you will get a 0 on the exam until prove to us it was you who did the video.
+- Make sure to use a picture ID, either a student ID _with a photo_, a driver's license, or passport that has a picture of you. If you do not provide a picture ID, you may get a 0 on the exam until prove to us it was you who did the video.
 - Make sure your picture ID and face are visible at the same time for three or four seconds. We must be able to pause the video and verify it's you. Again, if we can't verify it's you, you will get a 0 on the exam until prove to us it was you who did the video. Make sure to fill up the screen as much as possible with your face and picture id (i.e. don't stand far away from your camera).
 - When you start recording your video, start with screen share off and camera on and show your picture ID and face (close-up!!). Then you can enable screen share (and disable camera) and walk through your code.
 - Video must have sound! While highlighting your code, also make sure to explain the code. We must hear you explain it!
 - Once you enable screen share, make sure to leave it on the entire time while explaining your code.
-- Do not explain every test case! Only explain what you are explicitly told in the write-up.
-- Keep your videos under 8 minutes. We will penalize all students who go over 8 minutes. To ensure you stay under 8 minutes, make sure to only explain the test cases that the write-up says you should. Do not explain extra code that is not requested by the write-up.
+- Do not explain every test case! Only explain what you are explicitly told in the tasks above.
+- Keep your videos under 5 minutes; videos even a second over 5 minutes will get a `1`, this is to ensure we can grade them promptly. To ensure you stay under 5 minutes, make sure to only explain what is described above.
