@@ -71,4 +71,4 @@ Here are some notes on how to improve your videos:
 - Video must have sound! While highlighting your code, also make sure to explain the code. We must hear you explain it!
 - Once you enable screen share, make sure to leave it on the entire time while explaining your code.
 - Do not explain every test case! Only explain what you are explicitly told in the tasks above.
-- Keep your videos under 5 minutes; videos even a second over 5 minutes will get a `1`, this is to ensure we can grade them promptly. To ensure you stay under 5 minutes, make sure to only explain what is described above.
+- Keep your videos under 5 minutes; videos even a second over 5 minutes will get a `1`, this is to ensure we can grade them promptly. To ensure you stay under 5 minutes, make sure to only explain what is described above, and do a few practices or make a script before you start recording.
