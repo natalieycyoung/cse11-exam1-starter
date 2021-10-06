@@ -7,71 +7,53 @@ This page details a **take-home exam** that you will complete over the next few 
 
 You can make use of any course notes, online resources, Java tools, and so on to complete the exam.
 
-Syllabus policy on exams: https://ucsd-cse11-su221.github.io/#g:exams
+Syllabus policy on exams: FILL
 
-You will complete the programming task below and submit ```ExamplesSearch.java``` to the ```exam1``` Gradescope assignment.
-
-You will also submit a **video screencast** of yourself presenting a portion of
-it to this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdLObnTLZ0eRmiVF2lj0-1PzVGSLR2xJYCnp7rgahoogQOBgQ/viewform?usp=sf_link).
+You will complete the programming task below and submit `ExamplesMethods.java`, `ExamplesTweets.java`, `transcript-methods.txt`, `transcript-tweets.txt`, and your screencast to the `exam1` Gradescope assignment.
 
 Submission checklist (see long descriptions below for full details):
 
-- [ ] Fields ```task1a``` and ```task1b``` in ```ExamplesSearch``` class
-- [ ] Three examples of testing ```task1b``` in ```ExamplesSearch``` class
-- [ ] ```AreaLessThan``` class
-- [ ] Two constructed ```AreaLessThan``` objects
-- [ ] Four total tests for ```AreaLessThan``` (two for each object)
-- [ ] ```EitherQuery``` class
-- [ ] Constructed ```EitherQuery``` object
-- [ ] Two tests using this constructed ```EitherQuery``` object
-- [ ] Screencast
-    - Show ID
-    - Trace evaluation of ```task1b``` test
-    - Trace evaluation of ```EitherQuery``` test
+- [ ] 
 
-Your submission will be graded **after** the deadline. The Gradescope upload will just check to make sure that there aren’t any errors reported by Java when we try to run your programs, not whether tests succeeded or failed. You should test thoroughly yourself to make sure your program works as expected.
-
+Your submission will be graded **after** the deadline; there are no pre-deadline check-offs for exams. You should test thoroughly yourself to make sure your program works as expected.
 
 ## Tasks
 
-You can find the starter code in this repository. The starter code is very lightly adapted from [this reading](https://cseweb.ucsd.edu/classes/sp17/cse11-a/lecture11.html).
-
-
-You should **not** change any of the existing methods or classes except for adding to ```ExamplesSearch```. Don’t change ```ImageQuery``` or the other query classes, just add new ones as described below.
+You can find the starter code in this repository FILL link.
 
 ### Task 1
-- Add a new **field** to the ```ExamplesSearch``` class called ```task1a``` of type ```ImageQuery```. The fields value should be a query that returns ```true``` when calling the  ```matches``` method for images that have the extension ```"jpg"```.
 
-- Add a new field to ```ExamplesSearch``` called ```task1b``` of type ```ImageQuery```. Its ```matches``` method should return ```true``` for images that have the keyword ```"ucsd"``` and do **not** have the keyword ```"ucsf"``` (```false``` otherwise). Construct ```ImageData``` inputs matching these descriptions, and show how the query you constructed behaves when matching each of them:
+In the `ExamplesMethods` class, you will use the design recipe to write two methods:
 
-    1. An image that has the keyword ```"ucsd"``` and not ```"ucsf"```
-    2. An image that has the keyword ```"ucsd"``` and has the keyword ```"ucsf"```
-    3. An image that does not have either ```"ucsd"``` or ```"ucsf"``` as a keyword
+- `ringArea`, which takes two `double`s representing the radii of two concentric circles (FILL image) and returns the area of the ring between the two circles. Recall that the area of a circle is given by πr<sup>2</sup>. You can use `3.1415926` as an approximation of π.
+- `rotate`, which takes a `String` called `str` and an `int` called `n` produces a `String` with the first `n` characters of `str` removed from the beginning and added at the end. If the string is shorter than `n` characters, return the original string. For example, `rotate("Hello", 3)` would produce `"loHel"`.
+
+Note that it's fine to add _more_ methods than what we've listed, but these three methods must appear as described and be tested.
 
 ### Task 2
-Add a new type of query called ```AreaLessThan``` that represents a query that returns whether the area of an image (its width times its height) is less than an area provided to the query. It should implement ```ImageQuery```.
 
-Test the new class by creating two example ```AreaLessThan``` queries, and testing **each** on two inputs: one example that returns ```true``` and one that returns ```false``` (4 tests in total). You can write these as fields in ```ExamplesSearch``` or as tester methods, your choice, but they must be clearly indicated as the tests for Task 2.
+The file `ExamplesTweets.java` has two classes, `User` and `Tweet`, which are a partial solution for the same program as in PA2.
 
-### Task 3
-Add a new type of query called ```EitherQuery``` that represents a combination of two queries that returns true if either one matches, but false if both or neither match. For example, for an ```EitherQuery``` combining a keyword search for ```"apple"``` and a keyword search for ```"banana"```:
+Your task is to add:
 
-- It should return ```true``` when ```match```ing an ```ImageData``` with keywords ```"apple orange"```
-- It should return ```true``` when ```match```ing an ```ImageData``` with keywords ```"fruit banana"```
-- It should return ```false``` when ```match```ing an ```ImageData``` with keywords ```"apple orange banana"```
-- It should return ```false``` when ```match```ing an ```ImageData``` with keywords ```"no fruit here"```
+- A new class called `Date` that represents a particular calendar day (reminder that you can use code and ideas from problem sessions for this)
+- A new field on `Tweet` that represents the day the Tweet was posted, including any needed updates to the constructor
+- A new method on `Tweet` called `before` that takes another `Tweet` and returns `true` if `this` Tweet was posted before the Tweet given as an argument.
+- The following examples for the `before` method:
+  - `tweetExample1` – Two different Tweets posted on different months in the same year that returns `false`
+  - `tweetExample2` –Two different Tweets posted on different days in the same month and year that returns `true`
+  - `tweetExample3` –The same Tweet used as both `this` and as the argument to `before`.
+  - `tweetExample4` –Two different Tweets posted in different years, with the `this` `Tweet` having an _earlier_ month and day, that returns `false`
 
-Then, create an ```EitherQuery``` object. Demonstrate using this query’s ```matches``` method on two different ```ImageData``` inputs, once returning ```true``` and once returning ```false```.
 
-### Task 4 – Video
-You will record a short video of no more than ```8 minutes```. Include:
+### Task 3 – Video
+You will record a short video of no more than `5 minutes`. Include:
 
 - Show only your face and a picture ID (your student ID is preferred but any picture ID with your name on it will work) for a few seconds at the beginning. You don’t have to be on camera the whole time, though it’s fine if you are. Just a brief confirmation that it’s you creating the video/doing the work attached to the work itself is what we want. If you do not have a webcam, take a picture of yourself (and your picture ID) with your phone and display that picture at the start of your screen share.
-- For the second example from ```task1b``` – “An image that has the keyword ```"ucsd"``` and has the keyword ```"ucsf"```”:
+- Choose two examples for your `rotate` method, one where the string is shorter than `n`, and one where it is longer. Highlight the examples, and for each, show which return statement in your program runs, and what value is returned by that statement.
+- Highlight the example you wrote for `tweetExample2`. Highlight all of the lines of code that evaluate when that example runs; mark those lines with a comment like `// this line runs` at the end of the line as you go.
 
-    Run the program and show the output corresponding to the method call for this example. Then, starting from the line in your code with the the call to the ```matches``` method, indicate and explain each line of code that runs in your program while evaluating that method call. You can scroll to and click the lines to highlight them, or otherwise indicate each one. You should indicate them in the order that **Java will evaluate them** (this might be different than the order they appear in the file).
-
-- For this task, repeat the process of running the program, showing the output, and indicating which lines run and in which order. This time, do it for one of the calls to the ```matches``` method of ```EitherQuery``` you created in Task 3.
+TODO: Example video demonstrating tasks
 
 An example of what your video should look like when doing this kind of explanation is here (Credits: Joe Politz):
 
