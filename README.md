@@ -5,6 +5,8 @@
 
 This page details a **take-home exam** that you will complete over the next few days. You can’t communicate with anyone about the content of the assignment until you receive your grade. The course staff will not give debugging advice or answer questions about the problems. If you have technical trouble creating a screencast (detailed below) feel free to reach out for assistance. 
 
+Note that this is released after class and is due before class, **not** due in the evening.
+
 You can make use of any course notes, online resources, Java tools, and so on to complete the exam.
 
 Syllabus policy on exams: FILL
