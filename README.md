@@ -11,17 +11,21 @@ You can make use of any course notes, online resources, Java tools, and so on to
 
 Syllabus policy on exams: FILL
 
-You will complete the programming task below and submit `ExamplesMethods.java`, `ExamplesTweets.java`, `transcript-methods.txt`, `transcript-tweets.txt`, and your screencast to the `exam1` Gradescope assignment.
+You will complete the programming task below and submit your work to the `exam1` Gradescope assignment.
 
 Submission checklist (see long descriptions below for full details):
 
-- [ ] 
+- [ ] `ExamplesMethods.java` containing methods from Task 1
+- [ ] `transcript-methods.txt` containing the results of running your examples for Task 1
+- [ ] `ExamplesTweets.java` containing your modifications as described below
+- [ ] `transcript-tweets.txt` containing the results of running your examples for Task 2
+- [ ] `explanation.mp4` (or another video extension) that has your screencast for Task 3
 
 Your submission will be graded **after** the deadline; there are no pre-deadline check-offs for exams. You should test thoroughly yourself to make sure your program works as expected.
 
 ## Tasks
 
-You can find the starter code in this repository FILL link.
+You can find the starter code in this repository [https://github.com/ucsd-cse11-f21/cse11-exam1-starter](https://github.com/ucsd-cse11-f21/cse11-exam1-starter).
 
 ### Task 1
 
