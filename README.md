@@ -53,13 +53,11 @@ You will record a short video of no more than `5 minutes`. Include:
 
 - Show only your face and a picture ID (your student ID is preferred but any picture ID with your name on it will work) for a few seconds at the beginning. You don’t have to be on camera the whole time, though it’s fine if you are. Just a brief confirmation that it’s you creating the video/doing the work attached to the work itself is what we want. If you do not have a webcam, take a picture of yourself (and your picture ID) with your phone and display that picture at the start of your screen share.
 - Choose two examples for your `rotate` method, one where the string is shorter than `n`, and one where it is longer. Highlight the examples, and for each, show which return statement in your program runs, and what value is returned by that statement.
-- Highlight the example you wrote for `tweetExample2`. Highlight all of the lines of code that evaluate when that example runs; mark those lines with a comment like `// this line runs` at the end of the line as you go.
+- Highlight the example you wrote for `tweetExample2`. Highlight all of the lines of code that evaluate when that example runs; mark those lines with a comment at the end of the line as you go.
 
-TODO: Example video demonstrating tasks
+An example of what your video should look like when doing this kind of explanation is here:
 
-An example of what your video should look like when doing this kind of explanation is here (Credits: Joe Politz):
-
-https://drive.google.com/open?id=1E-TcVXSg9BI4MnWoVU9_BbcRJsu8ZhCf
+[https://drive.google.com/file/d/117NfZaHXbHtMJZJmLRVeRy-1b9cY3jei/view?usp=sharing](https://drive.google.com/file/d/117NfZaHXbHtMJZJmLRVeRy-1b9cY3jei/view?usp=sharing)
 
 PA2 has a tutorial for creating a screencast like this [https://ucsd-cse11-f21.github.io/assignments/pa2.html](https://ucsd-cse11-f21.github.io/assignments/pa2.html).
 
