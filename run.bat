@@ -3,7 +3,7 @@
 if "%1"=="" goto help
 
 javac -cp tester.jar %1.java
-java -classpath "tester.jar;%cd%" tester.Main %1
+java -Djava.security.manager=disallow -classpath "tester.jar;%cd%" tester.Main %1
 goto :eof
 
 :help
