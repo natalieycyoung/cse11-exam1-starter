@@ -34,7 +34,7 @@ In the `ExamplesMethods` class, you will use the design recipe to write two meth
 - `ringArea`, which takes two `double`s representing the radii of two concentric circles (FILL image) and returns the area of the ring between the two circles. Recall that the area of a circle is given by πr<sup>2</sup>. You can use `3.1415926` as an approximation of π.
 - `rotate`, which takes a `String` called `str` and an `int` called `n` produces a `String` with the first `n` characters of `str` removed from the beginning and added at the end. If the string is shorter than `n` characters, return the original string. For example, `rotate("Hello", 3)` would produce `"loHel"`.
 
-Note that it's fine to add _more_ methods than what we've listed, but these three methods must appear as described and be tested.
+Note that it's fine to add _more_ methods than what we've listed, but these two methods must appear as described and be tested.
 
 ### Task 2
 
