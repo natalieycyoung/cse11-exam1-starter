@@ -53,7 +53,7 @@ Your task is to add:
 
 
 ### Task 3 – Video
-You will record a short video of no more than `5 minutes`. Include:
+You will record a short video of no more than 5 minutes. Include:
 
 - Show only your face and a picture ID (your student ID is preferred but any picture ID with your name on it will work) for a few seconds at the beginning. You don’t have to be on camera the whole time, though it’s fine if you are. Just a brief confirmation that it’s you creating the video/doing the work attached to the work itself is what we want. If you do not have a webcam, take a picture of yourself (and your picture ID) with your phone and display that picture at the start of your screen share.
 - Choose two examples for your `rotate` method, one where the string is shorter than `n`, and one where it is longer. Highlight the examples, and for each, show which return statement in your program runs, and what value is returned by that statement.
