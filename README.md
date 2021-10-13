@@ -3,14 +3,25 @@
 ### Release: 5pm Wednesday October 13, 2021
 ### Due: 9am Friday October 15, 2021
 
-This page details a **take-home exam** that you will complete over the next few days. You can’t communicate with anyone about the content of the assignment until you receive your grade. The course staff will not give debugging advice or answer questions about the problems. If you have technical trouble creating a screencast (detailed below) feel free to reach out for assistance. 
+**Note that this is released after class Wednesday, and is due before class, not
+due in the evening.**
 
-Note that this is released after class and is due before class, **not** due in the evening.
+This page details a take-home exam that you will complete over the next few
+days. You can’t communicate with anyone about the content of the assignment
+until you receive your grade. You can message us privately on Piazza, but the
+course staff will not give programming advice or answer most questions about the
+problems. If you have technical trouble creating a screencast (detailed below)
+feel free to reach out for assistance.
 
-You can make use of any course notes, online resources, Java tools, and so on to complete the exam.
+Do not use any online service other than course resources to ask questions about
+the assignment. Do not search for, solicit, or use solutions to the problems
+that you find elsewhere for the exam. These are all violations of academic
+integrity that students have committed on exams like this in the past.
 
-Syllabus policy on exams: FILL
+You can make use of any course notes, online resources about Java and its
+libraries, Java tools, and so on to complete the exam.
 
+You can review the grading policy for exams in the [syllabus](/syllabus.html).
 You will complete the programming task below and submit your work to the `exam1` Gradescope assignment.
 
 Submission checklist (see long descriptions below for full details):
