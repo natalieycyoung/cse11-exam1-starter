@@ -1,3 +1,9 @@
+---
+layout: with-sidebar
+index: 3
+name: Exam 1
+released-on: "2021-10-13"
+---
 # Exam 1
 
 ### Release: 5pm Wednesday October 13, 2021
@@ -13,13 +19,14 @@ course staff will not give programming advice or answer most questions about the
 problems. If you have technical trouble creating a screencast (detailed below)
 feel free to reach out for assistance.
 
-Do not use any online service other than course resources to ask questions about
-the assignment. Do not search for, solicit, or use solutions to the problems
-that you find elsewhere for the exam. These are all violations of academic
-integrity that students have committed on exams like this in the past.
+Do not use any online service other than Piazza to ask questions about the
+assignment. Do not search for, solicit, or use solutions to the problems that
+you find elsewhere for the exam. These are all violations of academic integrity
+that students have committed on exams like this in the past.
 
 You can make use of any course notes, online resources about Java and its
-libraries, Java tools, and so on to complete the exam.
+libraries, Java tools, and so on to complete the exam, including re-using code
+from class notes.
 
 You can review the grading policy for exams in the [syllabus](/syllabus.html).
 You will complete the programming task below and submit your work to the `exam1` Gradescope assignment.
@@ -42,10 +49,18 @@ You can find the starter code in this repository [https://github.com/ucsd-cse11-
 
 In the `ExamplesMethods` class, you will use the design recipe to write two methods:
 
-- `ringArea`, which takes two `double`s representing the radii of two concentric circles (FILL image) and returns the area of the ring between the two circles. Recall that the area of a circle is given by πr<sup>2</sup>. You can use `3.1415926` as an approximation of π.
+- `ringArea`, which takes two `double`s representing the radii of two concentric circles and returns the area of the ring between the two circles. Recall that the area of a circle is given by πr<sup>2</sup>. You can use `3.1415926` as an approximation of π, or `Math.PI`.
+
+  <img src="/ring-area.png" width="300px">
+
+  You can assume the radii are greater than 0.
 - `rotate`, which takes a `String` called `str` and an `int` called `n` produces a `String` with the first `n` characters of `str` removed from the beginning and added at the end. If the string is shorter than `n` characters, return the original string. For example, `rotate("Hello", 3)` would produce `"loHel"`.
 
-Note that it's fine to add _more_ methods than what we've listed, but these two methods must appear as described and be tested.
+Note that it's fine to add _more_ methods than what we've listed, but these two methods must appear as described.
+
+Note that you should use the full design recipe – include enough examples to
+convince yourself the method works! If you have a question about an interesting
+input case, try it out and justify why the answer is OK.
 
 ### Task 2
 
@@ -55,12 +70,15 @@ Your task is to add:
 
 - A new class called `Date` that represents a particular calendar day (reminder that you can use code and ideas from problem sessions for this)
 - A new field on `Tweet` that represents the day the Tweet was posted, including any needed updates to the constructor
-- A new method on `Tweet` called `before` that takes another `Tweet` and returns `true` if `this` Tweet was posted before the Tweet given as an argument.
+- A new method on `Tweet` called `before` that takes another `Tweet` and returns `true` if `this` Tweet was posted strictly before the Tweet given as an argument.
 - The following examples for the `before` method:
   - `tweetExample1` – Two different Tweets posted on different months in the same year that returns `false`
-  - `tweetExample2` –Two different Tweets posted on different days in the same month and year that returns `true`
-  - `tweetExample3` –The same Tweet used as both `this` and as the argument to `before`.
-  - `tweetExample4` –Two different Tweets posted in different years, with the `this` `Tweet` having an _earlier_ month and day, that returns `false`
+  - `tweetExample2` – Two different Tweets posted on different days in the same month and same year that returns `true`
+  - `tweetExample3` – The same Tweet used as both `this` and as the argument to `before`.
+  - `tweetExample4` – Two different Tweets posted in different years, with the `this` `Tweet` having an _earlier_ month and day than the argument, and that returns `false`
+
+  You can make up any example Tweets you like for input data (they don't have to
+  be real-world Tweets)
 
 
 ### Task 3 – Video
