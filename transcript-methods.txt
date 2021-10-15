@@ -1,0 +1,37 @@
+Task 1 Results
+
+snain@DESKTOP-94H0ET4 ~/Natalie/CSE11/cse11-exam1-starter
+$ ./run.bat Examples
+error: file not found: Examples.java
+Usage: javac <options> <source files>
+use --help for a list of possible options
+Tester Library v.3.0
+-----------------------------------
+Tests defined in the class: Examples:
+---------------------------
+Examples:
+---------------
+new Examples:1(
+ this.areaEx1 = new ExamplesMethods:2()
+ this.areaEx2 = new ExamplesMethods:3()
+ this.areaEx3 = new ExamplesMethods:4()
+ this.areaEx4 = new ExamplesMethods:5()
+ this.areaEx5 = new ExamplesMethods:6()
+ this.rArea1 = 9.42477796076938
+ this.rArea2 = 9.42477796076938
+ this.rArea3 = 0.0
+ this.rArea4 = 34.55751918948772
+ this.rArea5 = 235.61944901923448
+ this.rotateEx1 = new ExamplesMethods:7()
+ this.rotateEx2 = new ExamplesMethods:8()
+ this.rotateEx3 = new ExamplesMethods:9()
+ this.rotateEx4 = new ExamplesMethods:10()
+ this.rotateEx5 = new ExamplesMethods:11()
+ this.rotated1 = "loHel"
+ this.rotated2 = "geabrid"
+ this.rotated3 = "buffet"
+ this.rotated4 = "see"
+ this.rotated5 = "onproducti")
+---------------
+No test methods found.
+
