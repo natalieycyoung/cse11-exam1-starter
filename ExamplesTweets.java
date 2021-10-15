@@ -1,3 +1,9 @@
+/**
+ * CSE 11 - Exam 1 - Task 2
+ *
+ * @author Natalie Young
+ * @since 2021-10-15
+ */
 
 class User
 {

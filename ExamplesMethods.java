@@ -1,10 +1,15 @@
+/**
+ * CSE 11 - Exam 1 - Task 1
+ *
+ * @author Natalie Young
+ * @since 2021-10-15
+ */
 
 class ExamplesMethods
 {
 	ExamplesMethods() {}
 	
 	/**
-	 * Task 1
 	 * Returns area difference of two concentric circles given their radii.
 	 *
 	 * @param radius1
@@ -31,7 +36,6 @@ class ExamplesMethods
 	
 	
 	/**
-	 * Task 2
 	 * Takes a string and moves a given number of characters from the beginning to the end.
 	 * 
 	 * @param str

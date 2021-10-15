@@ -1,3 +1,62 @@
 Task 2 Results
 
+snain@DESKTOP-94H0ET4 ~/Natalie/CSE11/cse11-exam1-starter
+$ ./run.bat ExamplesTweets
+Tester Library v.3.0
+-----------------------------------
+Tests defined in the class: ExamplesTweets:
+---------------------------
+ExamplesTweets:
+---------------
+new ExamplesTweets:1(
+ this.twitterUser = new User:2(
+  this.name = "jack"
+  this.email = "jack@twitter.com"
+  this.followers = 5700000)
+ this.twitterEpoch = new Date:3(
+  this.year = 2006
+  this.month = 3
+  this.day = 21)
+ this.tweet1 = new Tweet:4(
+  this.author = User:2
+  this.content = "just setting up my twttr"
+  this.tweetId = "20"
+  this.likes = 170600
+  this.date = Date:3)
+ this.date2 = new Date:5(
+  this.year = 2006
+  this.month = 3
+  this.day = 31)
+ this.tweet2 = new Tweet:6(
+  this.author = User:2
+  this.content = "drunk"
+  this.tweetId = "806"
+  this.likes = 536
+  this.date = Date:5)
+ this.date3 = new Date:7(
+  this.year = 2006
+  this.month = 4
+  this.day = 2)
+ this.tweet3 = new Tweet:8(
+  this.author = User:2
+  this.content = "picking up laundry. Hungry, me."
+  this.tweetId = "1012"
+  this.likes = 164
+  this.date = Date:7)
+ this.date4 = new Date:9(
+  this.year = 2021
+  this.month = 1
+  this.day = 4)
+ this.tweet4 = new Tweet:10(
+  this.author = User:2
+  this.content = "Reset to start the year"
+  this.tweetId = "1346245928491966464"
+  this.likes = 5918
+  this.date = Date:9)
+ this.tweetExample1 = false
+ this.tweetExample2 = true
+ this.tweetExample3 = false
+ this.tweetExample4 = false)
+---------------
+No test methods found.
 
