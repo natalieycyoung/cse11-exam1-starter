@@ -86,12 +86,6 @@ class Date
 		this.month = month;
 		this.day = day;
 	}
-
-	String toText()
-	{
-		String dateText = this.year + "-" + this.month + "-" + this.day;
-		return dateText;
-	}
 }
 
 class ExamplesTweets
@@ -139,25 +133,4 @@ class ExamplesTweets
 	// having an earlier month and day than the argument and that returns false.
 	// tweet 4: 2021-01-04, tweet3: 2006-04-02
 	boolean tweetExample4 = tweet4.before(tweet3);	// expected value: false	
-	
-	
-	/*	public static void main(String[] args)
-	{
-		System.out.println("\ndate.year " + tweet1.date.year);
-		System.out.println("\nothertweet.date.year " + tweet2.date.year);
-		System.out.println(twitterEpoch.toText());
-		System.out.println(tweet1.date.toText());
-		System.out.println(tweet1.date.year);
-		System.out.println(tweet1.date.month);
-		System.out.println(tweet1.date.day);
-		System.out.println(tweet2.date.year);
-		System.out.println(tweet2.date.month);
-		System.out.println(tweet2.date.day);
-		System.out.println(date2.toText());
-		System.out.println(tweet2.date.toText());
-
-		System.out.println("1 before 2: " + tweet1.before(tweet2));
-		System.out.println("tweetExample1: " + tweetExample1);
-		System.out.println("2 before 1: " + tweet2.before(tweet1));
-	}*/
 }
