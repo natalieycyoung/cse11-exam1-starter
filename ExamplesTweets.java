@@ -42,32 +42,32 @@ class Tweet
 	 * @param otherTweet
 	 * @return boolean
 	 */
-	boolean before(Tweet otherTweet)
+	boolean before(Tweet otherTweet) //run
 	{
 		// check if this year or other year is earlier
-		if (date.year < otherTweet.date.year)
+		if (date.year < otherTweet.date.year) //run
 		{
 			return true;
 		}
-		else if (date.year > otherTweet.date.year)
+		else if (date.year > otherTweet.date.year) //run
 		{
 			return false;
 		}
 
 		// check if this month or other month is earlier
-		if (date.month < otherTweet.date.month)
+		if (date.month < otherTweet.date.month) //run
 		{
 			return true;
 		}
-		else if (date.month > otherTweet.date.month)
+		else if (date.month > otherTweet.date.month) //run
 		{
 			return false;
 		}
 
 		// check if this day or other day is earlier
-		if (date.day < otherTweet.date.day)
+		if (date.day < otherTweet.date.day) //run
 		{
-			return true;
+			return true; //run
 		}
 		else if (date.day > otherTweet.date.day)
 		{
@@ -129,7 +129,7 @@ class ExamplesTweets
 
 	// Example 2 - Two different Tweets posted on different days in same month and
 	// same year that returns true. tweet 1: 2006-03-21, tweet2: 2006-03-31
-	boolean tweetExample2 = tweet1.before(tweet2);	// expected value: true
+	boolean tweetExample2 = tweet1.before(tweet2);	// expected value: true //run
 
 	// Example 3 - The same Tweet used both as this and the argument to before.
 	// tweet 1: 2006-03-21
