@@ -7,7 +7,7 @@
 
 class ExamplesMethods
 {
-	ExamplesMethods() {}
+	ExamplesMethods() {};
 	
 	/**
 	 * Returns area difference of two concentric circles given their radii.
